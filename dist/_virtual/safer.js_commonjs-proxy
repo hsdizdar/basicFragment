@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var safer = require('../node_modules/safer-buffer/safer.js');
+
+
+
+exports.default = safer.default;
+//# sourceMappingURL=safer.js_commonjs-proxy.map

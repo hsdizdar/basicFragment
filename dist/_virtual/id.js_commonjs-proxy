@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var id = require('../node_modules/inversify/lib/utils/id.js');
+
+
+
+exports.default = id.__moduleExports;
+//# sourceMappingURL=id.js_commonjs-proxy.map

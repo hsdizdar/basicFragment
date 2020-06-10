@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var optional = require('../node_modules/inversify/lib/annotation/optional.js');
+
+
+
+exports.default = optional.__moduleExports;
+//# sourceMappingURL=optional.js_commonjs-proxy.map

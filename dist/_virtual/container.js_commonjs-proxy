@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var container = require('../node_modules/inversify/lib/container/container.js');
+
+
+
+exports.default = container.__moduleExports;
+//# sourceMappingURL=container.js_commonjs-proxy.map

@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var constraint_helpers = require('../node_modules/inversify/lib/syntax/constraint_helpers.js');
+
+
+
+exports.default = constraint_helpers.__moduleExports;
+//# sourceMappingURL=constraint_helpers.js_commonjs-proxy.map

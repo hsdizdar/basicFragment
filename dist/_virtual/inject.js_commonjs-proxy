@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var inject = require('../node_modules/inversify/lib/annotation/inject.js');
+
+
+
+exports.default = inject.__moduleExports;
+//# sourceMappingURL=inject.js_commonjs-proxy.map

@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var init = require('../node_modules/express/lib/middleware/init.js');
+
+
+
+exports.default = init.default;
+//# sourceMappingURL=init.js_commonjs-proxy.map

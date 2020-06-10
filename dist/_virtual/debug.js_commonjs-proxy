@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var debug = require('../node_modules/debug/src/debug.js');
+
+
+
+exports.default = debug.default;
+//# sourceMappingURL=debug.js_commonjs-proxy.map

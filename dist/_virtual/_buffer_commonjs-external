@@ -1,0 +1,12 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var buffer = _interopDefault(require('buffer'));
+
+
+
+exports.default = buffer;
+//# sourceMappingURL=_buffer_commonjs-external.map

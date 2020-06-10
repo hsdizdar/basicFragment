@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var browser = require('../node_modules/debug/src/browser.js');
+
+
+
+exports.default = browser.default;
+//# sourceMappingURL=browser.js_commonjs-proxy.map

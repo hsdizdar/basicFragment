@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var eventListenerCount = require('../node_modules/depd/lib/compat/event-listener-count.js');
+
+
+
+exports.default = eventListenerCount.default;
+//# sourceMappingURL=event-listener-count.js_commonjs-proxy.map

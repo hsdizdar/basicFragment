@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var streams = require('../node_modules/iconv-lite/lib/streams.js');
+
+
+
+exports.default = streams.default;
+//# sourceMappingURL=streams.js_commonjs-proxy.map

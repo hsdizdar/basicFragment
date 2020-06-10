@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var literal_types = require('../node_modules/inversify/lib/constants/literal_types.js');
+
+
+
+exports.default = literal_types.__moduleExports;
+//# sourceMappingURL=literal_types.js_commonjs-proxy.map

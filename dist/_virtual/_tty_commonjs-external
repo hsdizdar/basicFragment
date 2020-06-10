@@ -1,0 +1,12 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var tty = _interopDefault(require('tty'));
+
+
+
+exports.default = tty;
+//# sourceMappingURL=_tty_commonjs-external.map

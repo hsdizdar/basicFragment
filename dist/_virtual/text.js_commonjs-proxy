@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var text = require('../node_modules/body-parser/lib/types/text.js');
+
+
+
+exports.default = text.default;
+//# sourceMappingURL=text.js_commonjs-proxy.map

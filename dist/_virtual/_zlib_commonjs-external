@@ -1,0 +1,12 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var zlib = _interopDefault(require('zlib'));
+
+
+
+exports.default = zlib;
+//# sourceMappingURL=_zlib_commonjs-external.map

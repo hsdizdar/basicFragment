@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var utf16 = require('../node_modules/iconv-lite/encodings/utf16.js');
+
+
+
+exports.default = utf16.default;
+//# sourceMappingURL=utf16.js_commonjs-proxy.map

@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var exceptions = require('../node_modules/inversify/lib/utils/exceptions.js');
+
+
+
+exports.default = exceptions.__moduleExports;
+//# sourceMappingURL=exceptions.js_commonjs-proxy.map

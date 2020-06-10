@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var post_construct = require('../node_modules/inversify/lib/annotation/post_construct.js');
+
+
+
+exports.default = post_construct.__moduleExports;
+//# sourceMappingURL=post_construct.js_commonjs-proxy.map

@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var stringify = require('../node_modules/express/node_modules/qs/lib/stringify.js');
+
+
+
+exports.default = stringify.default;
+//# sourceMappingURL=stringify2.js_commonjs-proxy.map

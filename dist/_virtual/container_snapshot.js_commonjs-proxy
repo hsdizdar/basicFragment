@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var container_snapshot = require('../node_modules/inversify/lib/container/container_snapshot.js');
+
+
+
+exports.default = container_snapshot.__moduleExports;
+//# sourceMappingURL=container_snapshot.js_commonjs-proxy.map

@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var ipaddr = require('../node_modules/ipaddr.js/lib/ipaddr.js');
+
+
+
+exports.default = ipaddr.default;
+//# sourceMappingURL=ipaddr.js_commonjs-proxy.map

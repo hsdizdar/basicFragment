@@ -1,0 +1,11 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var _commonjsHelpers = require('./_commonjsHelpers.js');
+var shiftjis = require('../node_modules/iconv-lite/encodings/tables/shiftjis.js');
+
+var require$$0 = _commonjsHelpers.getCjsExportFromNamespace(shiftjis);
+
+exports.default = require$$0;
+//# sourceMappingURL=shiftjis.json_commonjs-proxy.map

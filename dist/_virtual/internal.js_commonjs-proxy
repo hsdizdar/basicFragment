@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var internal = require('../node_modules/iconv-lite/encodings/internal.js');
+
+
+
+exports.default = internal.default;
+//# sourceMappingURL=internal.js_commonjs-proxy.map

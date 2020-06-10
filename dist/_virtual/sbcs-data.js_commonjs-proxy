@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var sbcsData = require('../node_modules/iconv-lite/encodings/sbcs-data.js');
+
+
+
+exports.default = sbcsData.default;
+//# sourceMappingURL=sbcs-data.js_commonjs-proxy.map

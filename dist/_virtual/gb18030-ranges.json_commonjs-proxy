@@ -1,0 +1,11 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var _commonjsHelpers = require('./_commonjsHelpers.js');
+var gb18030Ranges = require('../node_modules/iconv-lite/encodings/tables/gb18030-ranges.js');
+
+var require$$4 = _commonjsHelpers.getCjsExportFromNamespace(gb18030Ranges);
+
+exports.default = require$$4;
+//# sourceMappingURL=gb18030-ranges.json_commonjs-proxy.map

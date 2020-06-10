@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noEmitOnError": false,
+    "jsx": "preserve",
+    "typeRoots": [
+      "./src/types/definations.d.ts",
+      "./node_modules/@types"
+    ],
+    "paths": {
+      "@atoms/*": [
+        "./src/shared/atoms/*"
+      ],
+      "@molecules/*": [
+        "./src/shared/molecules/*"
+      ],
+      "@organisms/*": [
+        "./src/shared/organisms/*"
+      ],
+      "@templates/*": [
+        "./src/shared/templates/*"
+      ],
+      "@pages/*": [
+        "./src/shared/pages/*"
+      ],
+      "@constants/*": [
+        "./src/shared/constants/*"
+      ],
+      "@utils/*": [
+        "./src/shared/utils/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@types/*": [
+        "./src/types/*"
+      ],
+      "@pkg": [
+        "./package.json"
+      ]
+    },
+    "plugins": [
+      {
+        "transform": "typescript-plugin-styled-components",
+        "type": "config",
+        "minify": true,
+        "ssr": true,
+        "displayName": true,
+        "fileName": true,
+        "preprocess": false
+      }
+    ]
+  },
+  "include": [
+    "src", "index.js", "src/lib/logger.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".vscode"
+  ]
+}

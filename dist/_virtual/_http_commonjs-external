@@ -1,0 +1,12 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var http = _interopDefault(require('http'));
+
+
+
+exports.default = http;
+//# sourceMappingURL=_http_commonjs-external.map

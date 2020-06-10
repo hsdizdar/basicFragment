@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var response = require('../node_modules/express/lib/response.js');
+
+
+
+exports.default = response.default;
+//# sourceMappingURL=response.js_commonjs-proxy.map

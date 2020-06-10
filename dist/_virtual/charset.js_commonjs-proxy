@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var charset = require('../node_modules/negotiator/lib/charset.js');
+
+
+
+exports.default = charset.default;
+//# sourceMappingURL=charset.js_commonjs-proxy.map

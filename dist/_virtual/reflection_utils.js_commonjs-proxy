@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var reflection_utils = require('../node_modules/inversify/lib/planning/reflection_utils.js');
+
+
+
+exports.default = reflection_utils.__moduleExports;
+//# sourceMappingURL=reflection_utils.js_commonjs-proxy.map

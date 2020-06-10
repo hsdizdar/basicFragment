@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var binding = require('../node_modules/inversify/lib/bindings/binding.js');
+
+
+
+exports.default = binding.__moduleExports;
+//# sourceMappingURL=binding.js_commonjs-proxy.map

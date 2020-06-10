@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var language = require('../node_modules/negotiator/lib/language.js');
+
+
+
+exports.default = language.default;
+//# sourceMappingURL=language.js_commonjs-proxy.map

@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var callsiteTostring = require('../node_modules/depd/lib/compat/callsite-tostring.js');
+
+
+
+exports.default = callsiteTostring.default;
+//# sourceMappingURL=callsite-tostring.js_commonjs-proxy.map

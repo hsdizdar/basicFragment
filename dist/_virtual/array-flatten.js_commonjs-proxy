@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var arrayFlatten = require('../node_modules/array-flatten/array-flatten.js');
+
+
+
+exports.default = arrayFlatten.default;
+//# sourceMappingURL=array-flatten.js_commonjs-proxy.map

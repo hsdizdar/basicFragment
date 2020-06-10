@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var urlencoded = require('../node_modules/body-parser/lib/types/urlencoded.js');
+
+
+
+exports.default = urlencoded.default;
+//# sourceMappingURL=urlencoded.js_commonjs-proxy.map

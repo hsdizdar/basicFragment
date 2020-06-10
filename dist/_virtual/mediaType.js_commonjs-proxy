@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var mediaType = require('../node_modules/negotiator/lib/mediaType.js');
+
+
+
+exports.default = mediaType.default;
+//# sourceMappingURL=mediaType.js_commonjs-proxy.map

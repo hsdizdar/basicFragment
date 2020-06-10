@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var dbcsData = require('../node_modules/iconv-lite/encodings/dbcs-data.js');
+
+
+
+exports.default = dbcsData.default;
+//# sourceMappingURL=dbcs-data.js_commonjs-proxy.map

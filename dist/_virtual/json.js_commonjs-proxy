@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var json = require('../node_modules/body-parser/lib/types/json.js');
+
+
+
+exports.default = json.default;
+//# sourceMappingURL=json.js_commonjs-proxy.map

@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var context = require('../node_modules/inversify/lib/planning/context.js');
+
+
+
+exports.default = context.__moduleExports;
+//# sourceMappingURL=context.js_commonjs-proxy.map

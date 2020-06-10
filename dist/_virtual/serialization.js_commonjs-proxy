@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var serialization = require('../node_modules/inversify/lib/utils/serialization.js');
+
+
+
+exports.default = serialization.__moduleExports;
+//# sourceMappingURL=serialization.js_commonjs-proxy.map

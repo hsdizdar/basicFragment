@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var unmanaged = require('../node_modules/inversify/lib/annotation/unmanaged.js');
+
+
+
+exports.default = unmanaged.__moduleExports;
+//# sourceMappingURL=unmanaged.js_commonjs-proxy.map

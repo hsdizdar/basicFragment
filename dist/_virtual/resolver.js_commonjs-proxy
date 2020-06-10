@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var resolver = require('../node_modules/inversify/lib/resolution/resolver.js');
+
+
+
+exports.default = resolver.__moduleExports;
+//# sourceMappingURL=resolver.js_commonjs-proxy.map

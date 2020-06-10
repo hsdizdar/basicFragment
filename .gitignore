@@ -1,0 +1,7 @@
+node_modules
+public/dist
+yarn-error.log
+stats.html
+.env
+.env.prod
+.env.dev

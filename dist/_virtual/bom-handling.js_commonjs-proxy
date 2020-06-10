@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var bomHandling = require('../node_modules/iconv-lite/lib/bom-handling.js');
+
+
+
+exports.default = bomHandling.default;
+//# sourceMappingURL=bom-handling.js_commonjs-proxy.map

@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var extendNode = require('../node_modules/iconv-lite/lib/extend-node.js');
+
+
+
+exports.default = extendNode.default;
+//# sourceMappingURL=extend-node.js_commonjs-proxy.map

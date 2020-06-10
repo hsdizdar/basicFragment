@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var utils = require('../node_modules/express/lib/utils.js');
+
+
+
+exports.default = utils.default;
+//# sourceMappingURL=utils3.js_commonjs-proxy.map

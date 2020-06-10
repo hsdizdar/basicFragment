@@ -1,0 +1,11 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var _commonjsHelpers = require('./_commonjsHelpers.js');
+var codes$1 = require('../node_modules/statuses/codes.js');
+
+var codes = _commonjsHelpers.getCjsExportFromNamespace(codes$1);
+
+exports.default = codes;
+//# sourceMappingURL=codes.json_commonjs-proxy.map

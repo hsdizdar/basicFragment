@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var multi_inject = require('../node_modules/inversify/lib/annotation/multi_inject.js');
+
+
+
+exports.default = multi_inject.__moduleExports;
+//# sourceMappingURL=multi_inject.js_commonjs-proxy.map

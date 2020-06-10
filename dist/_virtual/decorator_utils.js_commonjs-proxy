@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var decorator_utils = require('../node_modules/inversify/lib/annotation/decorator_utils.js');
+
+
+
+exports.default = decorator_utils.__moduleExports;
+//# sourceMappingURL=decorator_utils.js_commonjs-proxy.map

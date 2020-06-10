@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var metadata_reader = require('../node_modules/inversify/lib/planning/metadata_reader.js');
+
+
+
+exports.default = metadata_reader.__moduleExports;
+//# sourceMappingURL=metadata_reader.js_commonjs-proxy.map

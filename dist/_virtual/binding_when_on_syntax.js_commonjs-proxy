@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var binding_when_on_syntax = require('../node_modules/inversify/lib/syntax/binding_when_on_syntax.js');
+
+
+
+exports.default = binding_when_on_syntax.__moduleExports;
+//# sourceMappingURL=binding_when_on_syntax.js_commonjs-proxy.map

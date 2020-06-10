@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var named = require('../node_modules/inversify/lib/annotation/named.js');
+
+
+
+exports.default = named.__moduleExports;
+//# sourceMappingURL=named.js_commonjs-proxy.map

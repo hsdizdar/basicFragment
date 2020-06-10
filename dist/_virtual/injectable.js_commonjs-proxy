@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var injectable = require('../node_modules/inversify/lib/annotation/injectable.js');
+
+
+
+exports.default = injectable.__moduleExports;
+//# sourceMappingURL=injectable.js_commonjs-proxy.map

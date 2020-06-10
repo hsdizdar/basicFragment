@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var dbcsCodec = require('../node_modules/iconv-lite/encodings/dbcs-codec.js');
+
+
+
+exports.default = dbcsCodec.default;
+//# sourceMappingURL=dbcs-codec.js_commonjs-proxy.map

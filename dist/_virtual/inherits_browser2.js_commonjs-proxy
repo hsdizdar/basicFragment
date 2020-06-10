@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var inherits_browser = require('../node_modules/inherits/inherits_browser.js');
+
+
+
+exports.default = inherits_browser.default;
+//# sourceMappingURL=inherits_browser2.js_commonjs-proxy.map

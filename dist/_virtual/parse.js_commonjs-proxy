@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var parse = require('../node_modules/body-parser/node_modules/qs/lib/parse.js');
+
+
+
+exports.default = parse.default;
+//# sourceMappingURL=parse.js_commonjs-proxy.map

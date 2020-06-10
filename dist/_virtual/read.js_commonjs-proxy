@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var read = require('../node_modules/body-parser/lib/read.js');
+
+
+
+exports.default = read.default;
+//# sourceMappingURL=read.js_commonjs-proxy.map

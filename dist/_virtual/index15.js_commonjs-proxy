@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var index = require('../node_modules/mime-db/index.js');
+
+
+
+exports.default = index.default;
+//# sourceMappingURL=index15.js_commonjs-proxy.map

@@ -1,0 +1,12 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var querystring = _interopDefault(require('querystring'));
+
+
+
+exports.default = querystring;
+//# sourceMappingURL=_querystring_commonjs-external.map

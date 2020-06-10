@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var tagged = require('../node_modules/inversify/lib/annotation/tagged.js');
+
+
+
+exports.default = tagged.__moduleExports;
+//# sourceMappingURL=tagged.js_commonjs-proxy.map

@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var encoding = require('../node_modules/negotiator/lib/encoding.js');
+
+
+
+exports.default = encoding.default;
+//# sourceMappingURL=encoding.js_commonjs-proxy.map

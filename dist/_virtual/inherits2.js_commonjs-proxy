@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var inherits = require('../node_modules/inherits/inherits.js');
+
+
+
+exports.default = inherits.default;
+//# sourceMappingURL=inherits2.js_commonjs-proxy.map

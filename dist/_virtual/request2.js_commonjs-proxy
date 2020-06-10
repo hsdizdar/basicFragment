@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var request = require('../node_modules/inversify/lib/planning/request.js');
+
+
+
+exports.default = request.__moduleExports;
+//# sourceMappingURL=request2.js_commonjs-proxy.map

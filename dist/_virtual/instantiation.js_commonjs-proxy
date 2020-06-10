@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var instantiation = require('../node_modules/inversify/lib/resolution/instantiation.js');
+
+
+
+exports.default = instantiation.__moduleExports;
+//# sourceMappingURL=instantiation.js_commonjs-proxy.map

@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var mime = require('../node_modules/mime/mime.js');
+
+
+
+exports.default = mime.default;
+//# sourceMappingURL=mime.js_commonjs-proxy.map
