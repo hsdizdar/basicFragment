@@ -53693,7 +53693,6 @@ var templateObject_1$2;var Counter = function Counter() {
       error = _a.error;
 
   var configData = useQuery(GET_CONFIG).data;
-  console.log('data', configData);
 
   var _b = react.useState(null),
       setErrorCatch = _b[1];
@@ -56517,7 +56516,7 @@ var InMemoryCache$1 = (function (_super) {
     return InMemoryCache;
 }(ApolloCache$1));var initialState = {
   counter: 0,
-  process: 'aa'
+  process: '-'
 };var isServer = typeof window === 'undefined';
 var cache$4 = isServer ? new InMemoryCache$1() : new InMemoryCache$1().restore(window.__BASICFRAGMENT_INITIAL_STATE__);
 console.log(cache$4);

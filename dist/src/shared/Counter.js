@@ -19,7 +19,6 @@ var Counter = function Counter() {
       error = _a.error;
 
   var configData = reactHooks.useQuery(counterQueries.GET_CONFIG).data;
-  console.log('data', configData);
 
   var _b = React__default.useState(null),
       setErrorCatch = _b[1];

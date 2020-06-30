@@ -16,12 +16,13 @@ var prodMiddleware = require('./prodMiddleware.js');
 var winston = require('winston');
 
 var envPath;
-process.env.BUILD === 'development' ? envPath = '.env.development' : envPath = '.env.production';
+process.env.BUILD === 'development' ? envPath = '.env.dev' : envPath = '.env.prod';
 
 require('dotenv').config({
   path: envPath
 });
 
+var logger;
 var app = index.default();
 
 var fs = require('fs');
@@ -108,8 +109,7 @@ var createLogger = function createLogger() {
       level: process.env.LOG_LEVEL
     })]
   };
-  var logger = winston.createLogger(logConfig);
-  return logger;
+  logger = winston.createLogger(logConfig);
 };
 
 createLogger();
@@ -213,9 +213,9 @@ app.use(index.default.json());
 if (index$2.isProd) {
   app.use(prodMiddleware.default);
 } else {
-  var logger_1 = createLogger();
+  createLogger();
   app.post('/logger', function (req, res) {
-    logger_1.log(req.body.type, req.body.log);
+    logger.log(req.body.type, req.body.log);
     return res.status(200).send();
   });
   app.post('/getLogs', function (req, res) {
@@ -237,7 +237,9 @@ if (index$2.isProd) {
       });
     });
   });
-  app.use('/', devMiddleware.default);
+  app.use('/', function (req, res, next) {
+    devMiddleware.default(req, res, next, createLogger);
+  });
 } // Error handling
 
 

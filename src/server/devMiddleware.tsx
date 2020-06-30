@@ -13,7 +13,7 @@ import * as layout from './layout';
 const fs = require('fs');
 const dotenv = require('dotenv');
 
-const devMiddleware = async (req: Request, res: Response, next) => {
+const devMiddleware = async (req: Request, res: Response, next, createLogger) => {
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
   const initialState = apolloClient.extract();
 
@@ -25,12 +25,14 @@ const devMiddleware = async (req: Request, res: Response, next) => {
         process.env[k] = envConfig[k];
       }
       initialState.ROOT_QUERY.process = 'PROD';
+      createLogger();
     } else {
       envConfig = dotenv.parse(fs.readFileSync('.env.dev'));
       for (const k in envConfig) {
         process.env[k] = envConfig[k];
       }
       initialState.ROOT_QUERY.process = 'DEV';
+      createLogger();
     }
   }
 

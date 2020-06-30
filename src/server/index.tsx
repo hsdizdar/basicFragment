@@ -14,11 +14,14 @@ import prodMiddleware from './prodMiddleware';
 const winston = require('winston');
 
 let envPath;
-process.env.BUILD === 'development' ? (envPath = '.env.development') : (envPath = '.env.production');
+process.env.BUILD === 'development' ? (envPath = '.env.dev') : (envPath = '.env.prod');
 
 require('dotenv').config({
   path: envPath,
 });
+
+let logger;
+
 const app: Application = express();
 const fs = require('fs');
 
@@ -107,8 +110,7 @@ const createLogger = () => {
     ],
   };
 
-  const logger = winston.createLogger(logConfig);
-  return logger;
+  logger = winston.createLogger(logConfig);
 };
 
 createLogger();
@@ -183,7 +185,7 @@ app.use(express.json());
 if (isProd) {
   app.use(prodMiddleware);
 } else {
-  const logger = createLogger();
+  createLogger();
 
   app.post('/logger', (req, res) => {
     logger.log(req.body.type, req.body.log);
@@ -205,7 +207,9 @@ if (isProd) {
     });
   });
 
-  app.use('/', devMiddleware);
+  app.use('/', (req, res, next) => {
+    devMiddleware(req, res, next, createLogger);
+  });
 }
 
 // Error handling
