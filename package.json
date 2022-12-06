@@ -35,7 +35,7 @@
     "inversify": "^5.0.1",
     "isomorphic-fetch": "^2.2.1",
     "moment": "^2.26.0",
-    "qs": "^6.9.4",
+    "qs": "^6.7.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-i18next": "^11.4.0",
